@@ -68,7 +68,7 @@ with t2:
     col1=c1.radio('select the first column for scatter plot for 3d',nums_cols)
     col2=c2.radio('select the second column for scatter plot for 3d',nums_cols)
     col3=c3.radio('select the third column for scatter plot for 3d',nums_cols)
-    fig = px.scatter_3d(df,x=col1,y=col2,z=col3,title=f'{col1} vs {col2} vs {col3}',height=700,color=col)
+    fig = px.scatter_3d(df,x=col1,y=col2,z=col3,title=f'{col1} vs {col2} vs {col3}',height=700)
     st.plotly_chart(fig,use_container_width=True)
 
 
