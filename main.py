@@ -71,7 +71,6 @@ with t2:
     fig = px.scatter_3d(df,x=col1,y=col2,z=col3,title=f'{col1} vs {col2} vs {col3}',height=700)
     st.plotly_chart(fig,use_container_width=True)
 
-
 # how to run the app
 # open terminal and run:
 #streamlit run main.py
