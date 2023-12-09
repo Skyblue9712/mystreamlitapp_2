@@ -146,8 +146,7 @@ with t3:
     gfbcghgfcghdhgvmvcfgcvmcghcgj gfbcghgfcghdhgvmvcfgcvmcghcgj  gfbcghgfcghdhgvmvcfgcvmcghcgj''')
 
 
-branch = os.environ.get("BRANCH", "default-branch")
-print(f"Deploying from branch: {branch}")
+
 # how to run the app
 # open terminal and run:
 #streamlit run Wpopulation.py
