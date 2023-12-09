@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import os
 # configure the page
 st.set_page_config(
     page_title='World Pouplation 2023',
@@ -145,6 +146,8 @@ with t3:
     gfbcghgfcghdhgvmvcfgcvmcghcgj gfbcghgfcghdhgvmvcfgcvmcghcgj  gfbcghgfcghdhgvmvcfgcvmcghcgj''')
 
 
+branch = os.environ.get("BRANCH", "default-branch")
+print(f"Deploying from branch: {branch}")
 # how to run the app
 # open terminal and run:
-#streamlit run main.py
+#streamlit run Wpopulation.py
