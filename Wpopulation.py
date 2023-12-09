@@ -19,7 +19,7 @@ heading_color=''
 # load the data
 @st.cache_data()
 def load_data():
-   url=r'data\2023_population.csv'
+   url='data/population.csv'
    df=pd.read_csv(url)
    return df
 #built the ui
